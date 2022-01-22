@@ -1,0 +1,65 @@
+.row{
+    display: flex;
+    justify-content: space-around;
+    background-color:#8895df;
+    color:#e8eaf6;
+    font-size:20px;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+.headshot{
+    width:20%;
+}
+.mid{
+    background-color:#99bfe3;
+    color:#a6e5e1;
+    align-items:center;
+    font-size:50px;
+    margin-top:5px;
+    margin-bottom:5px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Cabin Sketch', cursive;
+}
+.aboutme{
+    border:1px solid black;
+}
+/* .contact{
+    display: flex;
+    /* justify-content: space-around; */
+} */
+a{
+    text-decoration: none;
+    color: #e8eaf6;
+}
+#home {
+    color:  #99bfe3;
+    text-decoration: none;
+}
+.title {
+    color: #e8eaf6;
+    display: flex;
+    justify-content: center;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 50px;
+}
+.everythingElse {
+    background-color: #8895df;
+}
+html{
+    background-color: #756adf;
+}
+p, ul{
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 25px;
+    color: #e8eaf6;
+}
+
+ul{
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 35px;
+    color: #e8eaf6;
+}
