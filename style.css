@@ -71,7 +71,7 @@ img {
   color: #FF6B6B;
 }
 
-.about, .contact {
+.about, .contact, .generative, .clock, .classify, .poem {
   background-color: #277276;
   color: #79DAD1;
   font-size: 20px;
@@ -101,6 +101,12 @@ img {
   text-decoration: none;
 }
 
+.sectionTitle {
+  color: #F7FFF7;
+  font-family: 'Cabin Sketch', cursive;
+  text-align: center;
+  font-size: 40px;
+}
 .everythingElse {
     /* background-color: #8895df; */
     margin: 10px;
