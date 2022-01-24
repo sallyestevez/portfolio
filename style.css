@@ -71,7 +71,7 @@ img {
   color: #FF6B6B;
 }
 
-.about, .contact, .generative, .clock, .classify, .poem, .portfolio {
+.about, .contact, .generative, .clock, .classify, .poem, .portfolio, .web {
   background-color: #277276;
   color: #79DAD1;
   font-size: 20px;
@@ -91,12 +91,12 @@ img {
   color: #FBB5B1;
 }
 
-.contactInfo a {
+.contactInfo a, .link a {
   color: #FFE66D;
   text-decoration: none;
 }
 
-.contactInfo a:hover {
+.contactInfo a:hover, .link a:hover {
   color: #FFA96C;
   text-decoration: none;
 }
@@ -108,6 +108,6 @@ img {
   font-size: 40px;
 }
 
-ul{
+ul {
     text-decoration: none;
 }
