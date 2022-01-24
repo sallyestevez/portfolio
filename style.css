@@ -1,65 +1,135 @@
-.row{
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: #FBB5B1;
+  font-family: 'Cabin Condensed', sans-serif;
+  /* color: #CAE9FF; */
+}
+
+.navigation{
     display: flex;
     justify-content: space-around;
-    background-color:#8895df;
-    color:#e8eaf6;
-    font-size:20px;
-    font-family: 'Cabin Condensed', sans-serif;
+    background-color:#79DAD1;
+    font-size: 24px;
 }
-.headshot{
-    width:20%;
+
+a, a:visited, a:active {
+  font-weight: bold;
+  color: #FF6B6B;
 }
-.mid{
-    background-color:#99bfe3;
-    color:#a6e5e1;
-    align-items:center;
-    font-size:50px;
-    margin-top:5px;
-    margin-bottom:5px;
-    display: flex;
-    justify-content: center;
-    font-family: 'Cabin Sketch', cursive;
+
+.navigation a {
+  color: #FF6B6B;
+  text-decoration: none;
 }
-.aboutme{
-    border:1px solid black;
+
+.navigation a:hover {
+  color: #277276;
 }
-/* .contact{
-    display: flex;
-    /* justify-content: space-around; */
-} */
-a{
-    text-decoration: none;
-    color: #e8eaf6;
-}
-#home {
-    color:  #99bfe3;
-    text-decoration: none;
-}
+
 .title {
-    color: #e8eaf6;
-    display: flex;
-    justify-content: center;
-    font-family: 'Cabin Sketch', cursive;
-    font-size: 50px;
+  text-align: center;
+  color: #FBB5B1;
+  background-color: #277276;
+  font-family: 'Cabin Sketch', cursive;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border-radius: 10px;
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.pageTitle {
+  font-size: 40px;
+}
+.subtitle {
+  font-size: 30px;
+  color: #FFE66D;
+}
+
+.footer {
+  font-family: 'Cabin Sketch', cursive;
+  text-align: center;
+  font-size: 24px;
+  color: #FF6B6B;
+}
+/* .pageTitle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+} */
+
+/* .subtitle {
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px; */
+  /* color: #a6e5e1; */
+/* } */
+
+/* .mid {
+    background-color:#99bfe3;
+    /* color:#a6e5e1; */
+    /* padding: 0px; */
+    /* text-align: center; */
+    /* font-size:50px; */
+    /* margin: 10px; */
+    /* display: flex;
+    justify-content: center; */
+    /* font-family: 'Cabin Sketch', cursive; */
+/* }  */
+
 .everythingElse {
-    background-color: #8895df;
+    /* background-color: #8895df; */
+    margin: 10px;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
 }
-html{
-    background-color: #756adf;
+
+.portfolio{
+  /* background-color: #8895df; */
+  margin: 10px;
+  padding: 20px;
 }
-p, ul{
+
+/* p, ul{
     font-family: 'Cabin Condensed', sans-serif;
     font-size: 25px;
     color: #e8eaf6;
-}
+} */
 
 ul{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
-h2 {
-    font-family: 'Cabin Sketch', cursive;
-    font-size: 35px;
-    color: #e8eaf6;
-}
+/* h1 {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 40px;
+  /* color: #e8eaf6; */
+  /* text-align: center; */
+/* } */
+
+/* h2 { */
+    /* font-family: 'Cabin Sketch', cursive; */
+    /* font-size: 35px; */
+    /* color: #e8eaf6; */
+/* } */
