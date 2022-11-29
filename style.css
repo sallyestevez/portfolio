@@ -2,11 +2,19 @@
   box-sizing: border-box;
 }
 
+/* new color palette:
+  #8e7dba
+  #b5aad3
+  #99c1b9
+  #e1a1b5
+  #f6e5ea
+*/
+
 body, html {
   padding: 0;
   margin: 0;
   height: 100%;
-  background-color: #FBB5B1;
+  background-color: #f6e5ea;
   font-family: 'Cabin Condensed', sans-serif;
   /* color: #CAE9FF; */
 }
