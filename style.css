@@ -18,10 +18,9 @@ body{
   background-color: #f6e5ea;
   background-size: 180% 180%;
   animation: gradient-animation 32s ease infinite;
-  font-family: 'Ranchers', sans-serif;
+  /* font-family: 'Ranchers', sans-serif; */
   font-weight: 500;
   height: 100%;
-  letter-spacing: 2.5px;
 }
 
 @keyframes gradient-animation {
@@ -47,7 +46,7 @@ body{
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   justify-content: space-between;
-  font-family: 'Ranchers', sans-serif;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 
 .small-icon {
@@ -59,6 +58,7 @@ body{
   display: flex;
   justify-content: space-between;
   gap: 12px;
+
 }
 
 .header a {
@@ -71,11 +71,16 @@ body{
   color: #99C1B9;
 }
 
-.index-body {
-  text-align: center;
+.index-title {
   color: #B5AAD3;
-  /* font-family: 'Quicksand', sans-serif; */
-  margin: 8px 16px;
+  font-family: 'Ranchers', sans-serif;
+  letter-spacing: 2.5px;
+  margin: 8px 16px; 
+  text-align: center;
+}
+
+.index-body {
+  
 }
 
 /* .homeDiv {
