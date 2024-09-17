@@ -17,8 +17,8 @@ body{
   background: linear-gradient(300deg, #B5AAD3, #F6E5EA,#ACCCC5);
   background-color: #f6e5ea;
   background-size: 180% 180%;
-  animation: gradient-animation 32s ease infinite;
-  /* font-family: 'Ranchers', sans-serif; */
+  animation: gradient-animation 48s ease infinite;
+  font-family: 'Hind Siliguri', sans-serif;
   font-weight: 500;
   height: 100%;
 }
@@ -36,7 +36,7 @@ body{
 }
 
 .top-navigation {
-  height: 16vh;
+  height: 12vh;
   padding: 36px 16vw 24px;
 }
 
@@ -45,6 +45,7 @@ body{
   display: flex;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
+  width: 100%;
   justify-content: space-between;
   font-family: 'Hind Siliguri', sans-serif;
 }
@@ -73,9 +74,12 @@ body{
 
 .index-title {
   color: #B5AAD3;
+  display: flex;
   font-family: 'Ranchers', sans-serif;
+  justify-content:center;
   letter-spacing: 2.5px;
   margin: 8px 16px; 
+  /* width: 75%; */
   text-align: center;
 }
 
@@ -89,24 +93,6 @@ body{
   height: 500px;
   border-radius: 10px;
 } */
-
-.indexLinks{
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  /* font-family: 'Hind Siliguri', sans-serif; */
-  font-size: 24px;
-  margin-top: 50px;
-}
-
-.indexLinks a {
-  color: #8E7DBA;
-  text-decoration: none;
-}
-
-.indexLinks a:hover {
-  color: #F6E5EA;
-}
 
 img {
   display: block;
@@ -129,11 +115,11 @@ img {
   /* font-family: 'Quicksand', sans-serif; */
   text-align: center;
   font-size: 24px;
-  color: #99C1B9;
+  /* color: #99C1B9; */
 }
 
 .about, .contact, .web {
-  background-color: rgb(153, 193, 185, 50%);
+  /* background-color: rgb(153, 193, 185, 50%); */
   color: #8E7DBA;
   font-size: 20px;
   /* padding: 10px;
