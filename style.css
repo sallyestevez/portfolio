@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -10,41 +10,44 @@ html {
   min-height: 100vh;
   padding-left: 50px;
   padding-right: 50px;
-} 
+}
 
-body, html {
+body,
+html {
   height: 100%;
   background-color: #f6e5ea;
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
   font-weight: 500;
 }
 
-.navigation{
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 24px;
-    padding: 15px;
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Quicksand", sans-serif;
+  font-size: 24px;
+  padding: 15px;
 }
 
-a, a:visited, a:active {
+a,
+a:visited,
+a:active {
   font-weight: bold;
-  color: #8E7DBA;
+  color: #8e7dba;
 }
 
 .navigation a {
-  color: #8E7DBA;
+  color: #8e7dba;
   text-decoration: none;
 }
 
 .navigation a:hover {
-  color: #99C1B9;
+  color: #99c1b9;
 }
 
 .title {
   text-align: center;
-  color: #B5AAD3;
-  font-family: 'Quicksand', sans-serif;
+  color: #b5aad3;
+  font-family: "Quicksand", sans-serif;
   margin: 150px;
 }
 
@@ -55,22 +58,22 @@ a, a:visited, a:active {
   border-radius: 10px;
 }
 
-.indexLinks{
+.indexLinks {
   display: flex;
   justify-content: center;
   gap: 50px;
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
   font-size: 24px;
   margin-top: 50px;
 }
 
 .indexLinks a {
-  color: #8E7DBA;
+  color: #8e7dba;
   text-decoration: none;
 }
 
 .indexLinks a:hover {
-  color: #F6E5EA;
+  color: #f6e5ea;
 }
 
 img {
@@ -87,27 +90,29 @@ img {
 
 .subtitle {
   font-size: 30px;
-  color: #E1A1B5;
+  color: #e1a1b5;
 }
 
 .footer {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   text-align: center;
   font-size: 24px;
-  color: #99C1B9;
+  color: #99c1b9;
 }
 
-.about, .contact, .web {
+.about,
+.contact,
+.web {
   background-color: rgb(153, 193, 185, 50%);
-  color: #8E7DBA;
+  color: #8e7dba;
   font-size: 20px;
   /* padding: 10px;
   padding-left: 50px;
   padding-right: 50px; */
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 50px;
@@ -124,28 +129,37 @@ img {
 }
 
 .sub {
-  font-family: 'Quicksand', sans-serif;
-  color: #E1A1B5;
+  font-family: "Quicksand", sans-serif;
+  color: #e1a1b5;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-.contactInfo a, .link a {
-  color: #E1A1B5;
+.image {
+  padding-bottom: 10px;
+}
+
+.contactInfo a,
+.link a {
+  color: #e1a1b5;
   text-decoration: none;
 }
 
-.contactInfo a:hover, .link a:hover {
-  color: #8E7DBA;
+.contactInfo a:hover,
+.link a:hover {
+  color: #8e7dba;
   text-decoration: none;
 }
 
 .sectionTitle {
-  color: #B5AAD3;
-  font-family: 'Quicksand', sans-serif;
+  color: #b5aad3;
+  font-family: "Quicksand", sans-serif;
   text-align: center;
   font-size: 40px;
   padding: 10px;
 }
 
 ul {
-    text-decoration: none;
+  text-decoration: none;
 }
